@@ -123,7 +123,7 @@ static kvlist_t** shuffle(mapper_args_t* args, size_t num_mapper,
       kvlist_append(partitions[index], kvpair_clone(pair));
     }
     kvlist_iterator_free(&iterator);
-  }k
+  }
 
   return partitions;
 }
